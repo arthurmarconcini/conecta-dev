@@ -1,11 +1,16 @@
-import Home from './pages/Home/Index'
+import { ThemeProvider } from '@material-ui/core/styles';
+import Home from './pages/Home/Index';
+
+import theme from './theme';
 
 function App() {
   return (
-    <div className="App">      
-      <Home></Home>
-    </div>
-  );
+    <ThemeProvider theme={theme}>
+      <div className="App">      
+        <Home></Home>
+      </div>
+    </ThemeProvider>  
+    );
 }
 
 export default App;
