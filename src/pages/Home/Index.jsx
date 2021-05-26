@@ -35,8 +35,7 @@ function Home() {
                         <Navbar></Navbar>
                         <Feed></Feed>
                     </Box>
-                </Container>
-                
+                </Container>                
             </main>
         </div>
     )
